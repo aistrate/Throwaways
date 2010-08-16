@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApplication2.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="639" Width="825">
+    <Grid Loaded="Grid_Loaded" Height="514">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="445*" />
+            <ColumnDefinition Width="358*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="504*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        <TextBlock Height="50" Text="abcd" FontFamily="Anonymous Pro" FontSize="50" FontWeight="Normal" Margin="71,26,174,0" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Height="63" Text="Monoxil" FontFamily="Monoxil" FontSize="50" FontWeight="Bold"
+                   Margin="249,20,143,0" VerticalAlignment="Top" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock Text="Verily Serif Mono" FontFamily="Verily Serif Mono" FontSize="40" FontWeight="Bold"
+                   Margin="71,192,51,235" Grid.ColumnSpan="2"></TextBlock>
+        <TextBlock FontFamily="BPmono" FontSize="40" FontWeight="Normal" Height="61" Margin="71,0,51,168" 
+                   Text="BPmono" VerticalAlignment="Bottom" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="BPmono" FontSize="18.75pt" FontWeight="Normal" Height="34" Margin="12,0,12,139"
+                   Text="European Wildcat (Felis silvestris)" VerticalAlignment="Bottom" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="BPmono" FontSize="14.25pt" FontWeight="Normal" Height="28" Margin="12,0,12,105" Text="European Wildcat (Felis silvestris)" VerticalAlignment="Bottom" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="M+ 1m" FontSize="22pt" FontWeight="Normal" Height="41" Margin="12,0,12,58" Text="European Wildcat (Felis silvestris)" VerticalAlignment="Bottom" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="Audimat Mono" FontSize="24pt" FontWeight="Light" FontStyle="Normal" Height="41"
+                   Margin="12,0,12,19" Text="European Wildcat (Felis silvestris) xXY BOOK" VerticalAlignment="Bottom" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="Audimat Mono" FontSize="22pt" FontStyle="Normal" FontWeight="Light" Height="41" Margin="12,0,12,-18" Text="European Wildcat (Felis silvestris) xXY BOOK" VerticalAlignment="Bottom" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+        <TextBlock FontFamily="Anonymous Pro" FontSize="11.25pt" FontWeight="Normal" Height="28" Margin="49,-29,42,0"
+                   Text="European Wildcat (Felis silvestris)" VerticalAlignment="Top" />
+        <TextBlock FontFamily="Anonymous Pro" FontSize="15px" FontWeight="Normal" Height="28" Margin="49,-8,42,0" Text="European Wildcat (Felis silvestris)" VerticalAlignment="Top" />
+    </Grid>
+</Window>
